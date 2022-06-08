@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Encryption</title>
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel=stylesheet href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <div class="wrapp" id="wrapp">
+        <header>
+            <div class="img__darkmode" id="darkMode"></div>
+        </header>
+        <div class="main__wrapp">
+        <h2 id="title">Encrypt your password</h2>
+ <div class="inputs" id="card">
+     <div class="input1">
+         <div class="txt_input1">Type your password:</div>
+         <input type="text" class="inp1" id="passval" placeholder="Type your password here">
+         <br>
+         <div class="btns">
+         <a class="btn1" id="btnChipher"> Encrypt</a>
+         <a class="btn2" id="btnDecription"> Decipher</a>
+         <a class="btn3" id="btnDelete"> Clear</a>
+         </div>
+         <div> Shift step:</div>
+         <select name="" id="sel" class="sel">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3" selected>3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+         </select>
+     </div>
+     <div class="input2">
+         <div class="txt_input2">Result:</div>
+         <input type="text" class="inp2" id="res" placeholder="Result">
+     </div>
+ </div>
+    </div>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
